@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+#content{
+	position: absolute;
+	height:200px;
+	width:400px;
+	background-color:#ccc;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+    margin-top: -100px;
+
+}
+#content_top{
+	width:50px;
+	height:50px;
+	background-color: #fc0;
+	border-radius:0 0 50px 0;
+	position:absolute;
+}
+#content_bottom{
+	width:50px;
+	height:50px;
+	background-color: #fc0;
+	border-radius:50px 0 0 0;
+	position:absolute;
+	bottom:0;
+	right:0
+}
