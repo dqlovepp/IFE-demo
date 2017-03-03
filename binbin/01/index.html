@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+//用js实现
+/*(function() {
+      
+  在注释下方写下代码
+  给按钮button绑定一个点击事件
+  在事件处理函数中
+  获取aqi-input输入的值，并显示在aqi-display中
+  
+        var oAqiInput = document.getElementById("aqiinput");
+        var oButton = document.getElementById("button");
+        var oaAqiDisplay = document.getElementById("aqidisplay");
+        oButton.onclick=function(){
+          var a = oAqiInput.value;
+          oaAqiDisplay.innerHTML=a;
+        }
+})();*/
+//用jQuery实现
+$(document).ready(function(){
+    $("#button").click(function(){
+      var result = $("#aqiinput").val();
+      alert(result);
+      $("#aqidisplay").html(result)
+})
+})
+  
+
+</script>
+  </head>
+<body>
+
+  <label>请输入北京今天空气质量：<input id="aqiinput" type="text"></label>
+  <button id="button">确认填写</button>
+
+  <div>您输入的值是：<span id="aqidisplay">尚无录入</span></div>
+
+</body>
+
+</html>
