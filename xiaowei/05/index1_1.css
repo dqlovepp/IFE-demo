@@ -1,0 +1,128 @@
+*{
+	padding:0;
+	margin:0;
+	/*border:0;*/
+}
+#header{
+	width:100%;
+	height:60px;
+	background-color:#333333;
+	text-align:center
+}
+#header_logo{
+	display:inline-block;
+	width:200px;
+	height:60px;
+	background-image: url(logo.png.png);
+	background-repeat:no-repeat;
+	margin-left:40px
+}
+#header_nav {
+	margin-left:400px;
+	display:inline-block;
+	width:500px;
+	height: 60px;
+	vertical-align:middle;
+
+}
+#header_nav li {
+	display:inline-block;
+}
+#header_nav li a{
+	color:#fff;
+	font-size:18px;
+	font-weight: bold;
+	text-decoration:none;
+	margin-right:5px
+}
+  #footer{
+	width:100%;
+	height:60px;
+	background-color:#333333;
+	color:#fff;
+	text-align:center;
+	line-height: 60px;
+	margin:0 auto
+}
+#mid{
+	width:100%;
+	height:auto;
+	background-color:#DEDEDE;
+	position:relative;
+	margin: 0 auto;
+	padding:10px;
+}
+#left{
+	height:auto;
+	margin-right:320px;
+	background-color:#fff;
+}
+#right{
+	position:absolute;
+	width:300px;
+	height:auto;
+	background-color:#fff;
+	right:10px;
+	top:10px;
+	/*padding-top:30px*/
+	overflow:hidden;
+	box-shadow: 5px 5px 5px #888888;
+
+}
+p{
+	text-indent:20px
+}
+.page_1{
+	height:auto;
+	margin:0 auto;
+	/*background-color:#fff;*/
+	padding-top: 30px;
+	padding-left: 20px;
+	box-shadow: 5px 5px 5px #888888;
+	border-right:1px solid #909090;
+	border-bottom:1px solid #909090;
+	padding-bottom: 30px
+}
+.page_1 ul li{
+    display: inline-block;
+	list-style-type:none;
+}
+#liest1{
+	margin-left:40px
+}
+thead{
+background-color: #333333;
+color:#fff;
+}
+ td{
+ 	width:350px;
+ }
+ tfoot{
+ 	background-color: #CCCCCC;
+ }
+ .page_2{
+	height:auto;
+	margin:0 auto;
+	/*background-color:#fff;*/
+	padding-top: 30px;
+	padding-left: 10px;
+	border-right:1px solid #909090;
+	border-bottom:1px solid #909090;
+	padding-bottom: 30px
+}
+ .sub input{
+  	border-radius:5px;
+  	width:100px;
+  	display:inline-block; 
+  	height:25px;
+  	background-color:#3355D0;
+  	color:#fff;
+  	margin: 20px 80px
+
+  }
+
+  .e input:checked+a,
+.einput:checked:hover+a
+{
+background: #821134;
+}
