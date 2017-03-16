@@ -54,3 +54,15 @@ tbody tr:nth-child(1),tbody tr:nth-child(2),tbody tr:nth-child(3){
  .gdiv2{
  	background-color: #0100FE;
  }
+ input{
+ 	display: block;
+ 	width:200px;
+ 	height:30px;
+ 	margin:0 auto;
+ }
+ input:hover{
+ 	box-shadow:5px 5px #ccc
+ }
+ input:focus{
+ 	width:300px;
+ }
